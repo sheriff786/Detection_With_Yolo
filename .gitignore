@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ================================================================
+# S.H.A.D.Y Project Specific
+# ================================================================
+
+# YOLO weights (large binary files - download separately)
+*.weights
+
+# Debug/test files
+app_debug.log
+test_ytdlp.py
+test_video_feed.py
+run_object_detection.py
+
+# VS Code
+.vscode/
